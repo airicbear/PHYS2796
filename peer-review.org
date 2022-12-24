@@ -1,0 +1,47 @@
+#+TITLE: Peer Review
+#+AUTHOR: Eric Nguyen
+
+* Summary
+
+The goal of this experiment is to determine the value for the mercury excitation energy \(E_{\text{Hg}}\) by reproducing the Franck-Hertz experiment.
+The experiment is a success, as the measured value \(E_{\text{Hg}} = 4.75 \pm 1.60\times 10^{-2} \text{ eV}\) is close to \(E_{\text{Hg}} = 4.9 \text{ eV}\) as expected.
+
+* Notes
+
+** Abstract
+
+- The expected value does not fall within the error of the measured value
+
+** Introduction
+
+- Lacks discussion on relevance of experiment in recent physical research
+
+** Experimental Method
+
+- Lacks figure to show general schematic of experiment apparatus
+
+** Theoretical Background
+
+- Good
+
+** Results and Analysis
+
+- Lacks any mention of linear fit
+
+  + Include fit plot
+
+  + Include fit equation
+
+- Explain how values were found using slope of linear fit
+
+- Explain how error was obtained
+
+- Explain why error is reasonable
+
+** Conclusion
+
+- Good
+
+** References
+
+- Appears to have inconsistent format
