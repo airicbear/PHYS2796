@@ -1,0 +1,79 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{RAMIREZMORENO2016914}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RMM}{%
+         family={Ramírez-Moreno},
+         familyi={R\bibinithyphendelim M\bibinitperiod},
+         given={M.A.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GHS}{%
+         family={González-Hernández},
+         familyi={G\bibinithyphendelim H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ABF}{%
+         family={Angulo-Brown},
+         familyi={A\bibinithyphendelim B\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Blackbody radiation, Heat transfer law, Curzon–Ahlborn engine,
+  Müser engine}
+    \strng{namehash}{RMMGHSABF1}
+    \strng{fullhash}{RMMGHSABF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    A Müser-type engine model can be taken as a particular case of a
+  Curzon–Ahlborn thermal cycle, when the upper thermal conductance is finite
+  and the lower one is infinite. In addition, the upper heat exchange is given
+  by the Stefan–Boltzmann law. That model is suitable to thermodynamically
+  describe some aspects of energy converters as solar cells and photosynthetic
+  systems. In the present article, we call n-Müser engine to an engine of the
+  Müser type in which the T4 heat transfer law is substituted by a Tn-law,
+  being n>0 a real number. Here, we show that if we use the so-called
+  ecological criterion of merit to optimize finite-time heat engines to compare
+  the thermodynamic performance of the n-Müser engines under approximate
+  terrestrial conditions (see below), we obtain that n=4 accomplishes the best
+  performance. This same result was obtained by using data from the rest of
+  planets of the solar system.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.physa.2015.10.094
+    \endverb
+    \field{issn}{0378-4371}
+    \field{pages}{914\bibrangedash 921}
+    \field{title}{The role of the Stefan–Boltzmann law in the thermodynamic
+  optimization of an n-Müser engine}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S037843711500953X
+    \endverb
+    \field{volume}{444}
+    \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+    \field{year}{2016}
+  \endentry
+\enddatalist
+\endinput

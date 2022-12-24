@@ -1,0 +1,138 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{duanehunt}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DW}{%
+         family={Duane},
+         familyi={D\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HFL}{%
+         family={Hunt},
+         familyi={H\bibinitperiod},
+         given={Franklin\bibnamedelima L.},
+         giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{DWHFL1}
+    \strng{fullhash}{DWHFL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1103/PhysRev.6.166
+    \endverb
+    \field{issue}{2}
+    \field{pages}{166\bibrangedash 172}
+    \field{title}{On X-Ray Wave-Lengths}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.6.166
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1915}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ceramic}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yongzhe},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Mingguang},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Matiullah},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jimei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Chucheng},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{charge effect, Duane-Hunt limit, SEM, YAG ceramic}
+    \strng{namehash}{WY+1}
+    \strng{fullhash}{WYKMKMZJLCZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Abstract A major challenge when performing scanning electron microscopy and
+  X-ray analysis on many ceramic materials is their electrical insulation
+  properties, which leads to buildup of the surface charge and reduced contrast
+  in the secondary electron image. A new procedure was established to
+  quantitatively determine the neutral state values, E1 and E2, of yttrium
+  aluminum garnet (YAG) ceramics using the Duane-Hunt limit (EDHL) of
+  Bremsstrahlung, in order to eliminate this charge effect. Thirty-eight EDHL
+  values were linearly fitted with the last portion of X-ray spectra acquired
+  under the incident energy, E0, from 0.35 to 5.0 kV. According to the
+  distribution of EDHL, two piecewise linear fitting was first employed with a
+  breakpoint of 1.0 kV. Consequently, two intersection points of 0.54 and
+  2.48 kV, which correspond to E1 and E2 for YAG ceramics, were directly
+  determined using a theoretical curve (EDHL = E0). As a result, the
+  high-resolution images of the YAG ceramic grain structure were successfully
+  obtained using the calculated E1 and E2 values.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1002/jemt.23118
+    \endverb
+    \field{number}{10}
+    \field{pages}{1203\bibrangedash 1207}
+    \field{title}{Determining E1 and E2 values for yttrium aluminum garnet
+  ceramics using the Duane-Hunt limit}
+    \verb{url}
+    \verb https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.
+    \verb 1002/jemt.23118
+    \endverb
+    \field{volume}{81}
+    \field{journaltitle}{Microscopy Research and Technique}
+    \field{year}{2018}
+  \endentry
+\enddatalist
+\endinput

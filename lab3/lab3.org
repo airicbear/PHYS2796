@@ -1,0 +1,86 @@
+#+TITLE: Lab 3 - Compton Effect
+#+AUTHOR: Eric Nguyen \qquad Group 4
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
+#+LATEX_HEADER: \addbibresource{./lab3.bib}
+#+EXPORT_FILE_NAME: ComptonEffect_NguyenEric
+
+\begin{abstract}
+The goal of this lab is to measure the energy of gamma rays scattered from electrons in a metal.
+To do this, we use a source of cesium placed on a rotating platform directed at a target cylinder.
+The radiated gamma rays are scattered by the target cylinder and collected in a detector for analysis on the computer.
+We find that our experimental results agree with the accepted values for the rest energy of the electron and the incident gamma ray energy.
+\end{abstract}
+
+* Introduction
+
+In a historic moment, A. H. Compton measured the the energy shift of gamma rays when scattered from nearly free outer electrons of a target.
+His experiment confirmed several important ideas in Modern Physics, including the behavior of gamma ray particles and relativistic energy and relativistic momentum laws for electrons and photons.
+
+One of the topics in recent physics literature that motivates the study of Compton scattering is that of the effects of Compton scattering on spectral and temporal properties of terrestrial gamma-ray flashes (TGFs).
+TGFs are high-energy photon bursts originating from the Earth's atmosphere.
+The study of Compton effects on TGFs show that TGFs are consistent with the Compton scattering effects.
+[[cite:&tgf][TGF]]
+
+* Experimental Method
+
+** Equipment
+
+Cesium source in shielded lead housing, detector system, lead shield, target aluminum or steel cylinder, a goniometer, a multichannel analyzer system with UCS-30 spectrometer and software program
+
+#+CAPTION: Compton effect apparatus diagram including cesium source, target, and detector
+#+ATTR_LATEX: :width 240px
+[[./diagram.png]]
+
+** Procedure
+
+1. Position source at \(90^\circ\).
+
+2. Remove target rod from the holder and take background measurement.
+   Strip this background measurement from the spectrum measured in step 3.
+
+3. Place target rod in holder and take measurement, forming a peak in the data.
+
+4. Apply ROI around peak and obtain energy and FWHM values.
+
+5. Repeat steps 2-4 for angles up to \(160^\circ\) in \(10^\circ\) increments.
+
+* Theoretical Background
+
+We apply a line of best fit in the form
+
+\[y = mx + b \tag{1}\]
+
+* Results and Analysis
+
+#+CAPTION: Compton Effect experiment data
+| Angle (\(\theta\)) | Live Time (s) | Energy (MeV) | FWHM (MeV) |
+|--------------------+---------------+--------------+------------|
+|                 90 |           300 |     0.304414 |   0.023069 |
+|                100 |           300 |     0.282187 |   0.017051 |
+|                110 |           300 |     0.261715 |   0.005015 |
+|                120 |           300 |     0.239980 |   0.023069 |
+|                130 |           300 |     0.215126 |   0.008024 |
+|                140 |           300 |     0.208824 |   0.015045 |
+|                150 |           300 |     0.201983 |   0.034103 |
+|                160 |           300 |     0.199818 |   0.007021 |
+
+#+CAPTION: Linear fit used to determine a value of the rest energy of electron, \(m_e c^2\)
+[[./fit.png]]
+
+The linear fit has a slope, \(m = 0.500 \text{ MeV}\), and standard error of the slope, \(\Delta m = 0.025 \text{ MeV}\).
+This is close to the accepted value of the rest energy of the electron, that is \(0.511 \text{ MeV}\).
+
+The linear fit has a intercept, \(b = -0.610 \text{ MeV}\), and standard error of the intercept, \(\Delta b = -0.610 \text{ MeV}\).
+This has a close magnitude to the accepted value of the incident gamma ray energy, \(0.662 \text{ MeV}\).
+
+* Conclusion
+
+There were several sources of error in this lab: in the degree of the source and in the region of interest.
+Both measurements are affected by human error.
+
+The results of this lab confirm the accepted values of the rest energy of the electron and the incident gamma ray energy.
+
+[[printbibliography:]]

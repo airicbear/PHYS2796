@@ -1,0 +1,110 @@
+#+TITLE: Determining Planck's Constant Using the Duane-Hunt Relation
+#+AUTHOR: Eric Nguyen, Jacob Shin
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
+#+LATEX_HEADER: \addbibresource{./lab4.bib}
+#+LATEX_HEADER: \renewcommand*\thetable{\Roman{table}}
+#+EXPORT_FILE_NAME: DuaneHunt_NguyenEric
+
+\begin{abstract}
+The goal of this experiment is to confirm the Duane-Hunt relation and determine the value of Planck's constant using the relation.
+To do this, we use an X-Ray apparatus and its software to carry out the experiment and obtain the wavelength \(\lambda_{\min}\) values for specific voltages \(U\) of which are fitted using the LINEST algorithm.
+The slope parameter \(m\) obtained from the fit is used in the Duane-Hunt relation to determine Planck's constant.
+Our result \((h = (6.484 \pm 0.2) \times 10^{-34} \text{ J s})\) for the Planck constant agrees with the accepted result of \(h = 6.626 \times 10^{-34} \text{ J s}\).
+\end{abstract}
+
+* Introduction
+
+The X-Ray part of the electromagnetic spectrum has radiation of wavelengths around \(0.1 \text{ nm}\).
+In a lab setting, X-Rays can be produced by accelerating a beam of electrons and colliding them into atoms.
+
+The Duane-Hunt relation is the inverse proportionality between the wavelengths of X-Rays and voltages required to produce them [[cite:&duanehunt][duanehunt]].
+One of the topics in recent physics literature that motivates the study of the Duane-Hunt relation is in the study of ceramic materials.
+X-ray analysis of ceramic materials is a difficult challenge due to their elecrical insulation properties which cause buildup of surface charge and poor contrast in X-ray image.
+The Duane-Hunt relation is used to study the electrical insulation properties of ceramics by eliminating the charge effect.
+[[cite:&ceramic][ceramic]]
+
+* Experimental Method
+
+** Equipment
+
+Crystal spectrometer (goniometer with NaCl crystal and Geiger-Müller counter tube in the Bragg configuration)
+
+#+CAPTION: Crystal spectrometer apparatus diagram. On the right is pictured the source of the X-ray, in the center is pictured the crystal of NaCl diffracting the X-ray, and on the left is pictured the detector which detects the radiation diffracted off of the crystal.
+#+ATTR_LATEX: :width 240px
+[[./fig.png]]
+
+** Procedure
+
+The X-ray apparatus and its software is used to collect the wavelength data at various configurations as listed in Table I.
+We visually estimate the linear portion of the data and perform a linear fit on those portions, recording the slope as the minimum wavelength, \(\lambda_{\text{min}}\) in pm.
+We take two additional linear fits including additional points on either end of the region and determine the error in the measurement \(\Delta \lambda_{\text{min}}\) by taking the largest error between the original fit.
+We use the set of \(\lambda_{\text{min}}\) values obtained and plot them against \(1/U\) in 1/kV.
+We apply a linear fit through the origin against this plot and record its slope \(m\).
+To determine Planck's constant, we substitute \(m\) into the Duane-Hunt relation and evaluate the expression.
+
+#+CAPTION: Configurations used for each run in the experimental procedure.
+| U/kV | I/mA | \(\Delta\)t/s | \(\beta_{\text{min}}\)/grd | \(\beta_{\text{max}}\)/grd | \(\Delta \beta\)/grd |
+|------+------+---------------+----------------------------+----------------------------+----------------------|
+|   22 | 1.00 |            30 |                        5.2 |                        6.2 |                  0.1 |
+|   24 | 1.00 |            30 |                        5.0 |                        6.2 |                  0.1 |
+|   26 | 1.00 |            20 |                        4.5 |                        6.2 |                  0.1 |
+|   28 | 1.00 |            20 |                        3.8 |                        6.0 |                  0.1 |
+|   30 | 1.00 |            10 |                        3.2 |                        6.0 |                  0.1 |
+|   32 | 1.00 |            10 |                        2.5 |                        6.0 |                  0.1 |
+|   34 | 1.00 |            10 |                        2.5 |                        6.0 |                  0.1 |
+|   35 | 1.00 |            10 |                        2.5 |                        6.0 |                  0.1 |
+
+* Theoretical Background
+
+When applying the best fit for the plot of \(\lambda_{\text{min}}\) vs. \(1 / U\), we use the slope equation
+\[y = mx \tag{1}\]
+where \(m\) is the slope of the linear fit through the origin with a standard error \(\Delta m\).
+The choice of fitting through the origin, rather than through a \(y\)-intercept, is based on the Duane-Hunt relation.
+Solving for Planck's constant in the Duane-Hunt relation [[cite:&duanehunt][duanehunt]] we get,
+\[h = \frac{me}{c} \tag{2}\]
+where \(e\) is the elementary charge, and \(c\) is the speed of light.
+The error in Planck's constant is calculated using the largest error from the minimum wavelength data,
+\[\Delta h = \frac{\Delta \lambda_{\text{min}} U e}{c} \tag{3}\]
+where \(U\) is the voltage corresponding to the data from which we obtained \(\Delta \lambda_{\text{min}}\).
+
+* Results and Analysis
+
+The linear fit through the origin of \(\lambda_{\text{min}}\) vs. \(1/U\) (shown in Figure 2) has a slope, \(m = 1213 \text{ pm} \cdot \text{kV}\), and a standard error of the slope, \(\Delta m = \pm 2 \text{ pm} \cdot \text{kV}\).
+The standard error for the slope \(\Delta m\) is small enough that it does not affect our results, so we omit them in our calculations.
+Plugging the slope \(m\) into Equation 2, we find a value for Planck's constant, \(h = 6.484 \times 10^{-34} \text{ J s}\).
+Using Equation 3, we find an error of \(\Delta h = 0.2 \times 10^{-34} \text{ J s}\).
+The result we get for Planck's constant, \(h = (6.484 \pm 0.2) \times 10^{-34} \text{ J s}\) agrees with the accepted value, \(h = 6.626 \times 10^{-34} \text{ J s}\).
+
+#+CAPTION: \(\lambda_{\text{min}}\) data collected from the crystal spectrometer which is used in determining the slope \(m\) for the Duane-Hunt relation.
+| Run | U (kV) | \(\lambda_{\text{min}}\) (pm) |
+|-----+--------+-------------------------------|
+|     |        |                           <r> |
+|   0 |     22 |              \(54.4 \pm 0.5\) |
+|   1 |     24 |              \(55.2 \pm 1.3\) |
+|   2 |     26 |              \(46.6 \pm 0.6\) |
+|   3 |     28 |              \(43.4 \pm 0.6\) |
+|   4 |     30 |              \(40.3 \pm 0.6\) |
+|   5 |     32 |              \(37.9 \pm 0.5\) |
+|   6 |     34 |              \(35.6 \pm 0.5\) |
+|   7 |     35 |              \(34.5 \pm 0.4\) |
+
+#+CAPTION: Linear fit of \(\lambda_{\text{min}}\) in pm vs. \(1/U\) in 1/kV. The slope \(m\) of this fit is used in determining Planck's constant \(h\).
+[[./fit.png]]
+
+* Conclusion
+
+To determine Planck's constant \(h\), we used the Duane-Hunt relation (Equation 2).
+In our experimental procedure, we found the slope \(m = 1213 \text{ pm}\cdot\text{kV}\) of the linear fit of \(\lambda_{\text{min}}\) vs. \(1/U\) using the LINEST algorithm where \(m\) was the only unknown in the Duane-Hunt relation needed to determine Planck's constant.
+
+One source of error in this lab was in the process of obtaining the \(\lambda_{\text{min}}\) for each voltage, specifically in choosing which points to apply the best fit as we used a simple visual estimate.
+We accounted for this error by taking the largest error \(\Delta \lambda_{\text{min}} = 1.3 \text{ pm}\) of the measured values for \(\lambda_{\text{min}}\) and used Equation 3 to find an error for Planck's constant \(\Delta h = 0.2 \text{ J s}\).
+A suggestion to reduce this error would be to apply a nonlinear fit against the data instead and use the error values associated with such a fit.
+
+We successfully determined Planck's constant, \(h = (6.484 \pm 0.2) \times 10^{-34} \text{ J s}\) as it agrees with the accepted value, \(h = 6.626 \times 10^{-34} \text{ J s}\).
+
+In determining Planck's constant using the Duane-Hunt relation we may use the results of this experiment to compare the conclusions of other potential different derivations of Planck's constant.
+
+[[printbibliography:]]

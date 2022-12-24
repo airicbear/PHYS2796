@@ -1,0 +1,92 @@
+#+TITLE: Lab 2 - Photoelectric Effect
+#+AUTHOR: Eric Nguyen \qquad Group 4
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
+#+LATEX_HEADER: \addbibresource{./lab2.bib}
+#+LATEX_HEADER: \usepackage{longtable}
+#+EXPORT_FILE_NAME: Photoelectric_NguyenEric
+
+\begin{abstract}
+The goal of this lab is to apply the photoelectric effect to calculate the value for Planck's constant.
+To do this, we use the PASCO photoelectric effect apparatus and collect the necessary data.
+We obtain a comparable value of \(h = 6.360 \times  \text{ J s}\) which matches our expectations.
+\end{abstract}
+
+* Introduction
+
+The photoelectric effect refers to the emission of electrons from the surface of a metal when it is illuminated with light.
+The emitted electrons are called photoelectrons.
+Originally it was predicted by the classical wave model that the energy of the emitted electrons would increase as the brightness of the light increased.
+
+In 1902 Philip Lenard found that the maximum kinetic energy of the emitted electrons, for a given metal, solely depended on the color/frequency of the light and no electrons would be emitted below a certain threshold frequency.
+
+In 1905 Albert Einstein explained Lenard's discoveries using Planck's Theory of radiation.
+
+* Experimental Method
+
+** Equipment
+
+PASCO Photoelectric effect apparatus
+
+#+CAPTION: PASCO photoelectric effect apparatus
+[[./apparatus.png]]
+
+** Procedure
+
+1. Uncover window of Photodiode enclosure and place the 2 mm diameter aperture and 365 nm onto window of enclosure.
+
+2. Uncover the window of the mercury light source producing 365 nm wavelength spectral lines on cathode.
+
+3. Turn the VOLTAGE ADJUST knob so the ammeter reads zero current.
+
+4. Record magnitude of stopping potential for 365 nm wavelength.
+
+5. Cover the window of the mercury light source.
+
+6. Repeat steps 1-5 for the 4mm and 8mm apertures.
+
+7. Repeat the measurement for the other filters.
+
+8. Record magnitude of stopping potential for each wavelength and each aperature.
+
+* Theoretical Background
+
+We use the slope-intercept equation for best fit,
+
+\[y = mx + b \tag{1}\]
+
+We determine the value for Planck's constant using the equation
+
+\[h = me \tag{2}\]
+
+where \(m\) is the slope of the best fit and \(e\) is the elementary charge.
+
+* Results and Analysis
+
+#+CAPTION: Linear fit for photoelectric effect data
+[[./fit.png]]
+
+The linear fit has a slope, \(m = -0.40 \text{ V/}(1 \times 10^{14} \text{ Hz})\), and standard error of the slope, \(\Delta m = -0.003 \text{ V/}(1 \times 10^{14} \text{ Hz})\).
+The linear fit has an intercept, \(b = 1.4\text{ V}\), and standard error of the intercept, \(\Delta b = 1.4\text{ V}\).
+
+Applying Equation (2), we get a magnitude of \(h = 6.360 \times  \text{ J s}\) for the Planck constant which is comparable to the accepted value \(h_0 = 6.626 \times 10^{-34} \text{ J s}\).
+The differences between the calculated value and accepted value may be due to noise, for example due to the environment.
+
+In applying a linear fit against the data for average stopping potential (V) versus intensity, we obtained a slope \(m = -0.96 \text{ eV/V}\) and intercept \(b = 1.43 \text{ V}\) with respective standard errors of \(\Delta m = 0.008 \text{ eV/V}\) and \(\Delta b = 1.43 \text{ V}\).
+
+#+CAPTION: Photoelectric effect experiment data
+#+ATTR_LATEX: :environment longtable :align |p{2cm}|p{2cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|
+| Wavelength (nm) | Frequency (10^14 Hz) | Stopping Potential (V) (2 mm) | Stopping Potential (V) (4 mm) | Stopping Potential (V) (8 mm) | Average Stopping Potential (V) |
+|-----------------+----------------------+-------------------------------+-------------------------------+-------------------------------+--------------------------------|
+|           365.0 |                8.214 |                        -1.801 |                        -1.841 |                        -1.848 |                         -1.830 |
+|           404.7 |                7.408 |                        -1.502 |                        -1.511 |                        -1.523 |                         -1.512 |
+|           435.8 |                6.879 |                        -1.308 |                        -1.311 |                        -1.322 |                         -1.314 |
+|           546.1 |                5.490 |                        -0.767 |                        -0.750 |                        -0.758 |                         -0.758 |
+|           577.0 |                5.196 |                        -0.628 |                        -0.627 |                        -0.628 |                         -0.628 |
+
+
+* Conclusion
+
+The results of this lab confirm the value of Planck's constant.
