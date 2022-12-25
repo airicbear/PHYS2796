@@ -1,0 +1,92 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{tgf}{article}{}
+    \name{author}{4}{}{%
+      {{hash=XW}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Celestin},
+         familyi={C\bibinitperiod},
+         given={Sebastien},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PVP}{%
+         family={Pasko},
+         familyi={P\bibinitperiod},
+         given={Victor\bibnamedelima P.},
+         giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MRA}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{terrestrial gamma-ray flashes, Compton scattering, tilted geometry,
+  light curve, energy spectra, lightning discharge}
+    \strng{namehash}{XW+1}
+    \strng{fullhash}{XWCSPVPMRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{X}
+    \field{sortinithash}{X}
+    \field{abstract}{%
+    Abstract Terrestrial gamma-ray flashes (TGFs) are high-energy photon bursts
+  originating from the Earth's atmosphere. In this study, using
+  first-principles Monte Carlo simulations, we quantify the effects of Compton
+  scattering on the temporal and spectral properties of TGFs induced by a
+  tilted source geometry. Modeling results indicate that the source orientation
+  is a critical parameter in TGF analysis but has been significantly
+  underestimated in previous studies. Offset distance between the lightning
+  source and satellite location cannot be used as a single parameter
+  characterizing Compton scattering effects. In the tilted geometry, Compton
+  scattering effects are more pronounced in the falling part of TGF pulses and
+  can lead to an increase of the falling part of TGF pulses by several tens of
+  microseconds. Moreover, by performing curve-fitting analysis on simulated TGF
+  light curves, we explain how the symmetric and asymmetric pulses measured by
+  the Gamma-Ray Burst Monitor on Fermi satellite are consistent with the
+  Compton scattering effects. Fermi-measured TGF pulses can be fully explained
+  using Gaussian-distributed TGF sources with an average duration of
+  ∼206 μs.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1029/2019JA026941
+    \endverb
+    \verb{eprint}
+    \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019JA026941
+    \endverb
+    \field{number}{8}
+    \field{pages}{7220\bibrangedash 7230}
+    \field{title}{Compton Scattering Effects on the Spectral and Temporal
+  Properties of Terrestrial Gamma-Ray Flashes}
+    \verb{url}
+    \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JA026941
+    \endverb
+    \field{volume}{124}
+    \field{journaltitle}{Journal of Geophysical Research: Space Physics}
+    \field{year}{2019}
+  \endentry
+\enddatalist
+\endinput

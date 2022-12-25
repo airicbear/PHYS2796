@@ -1,0 +1,83 @@
+#+TITLE: Lab Report - Stefan-Boltzmann Radiation Law
+#+AUTHOR: Eric Nguyen \qquad Group 4
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
+#+LATEX_HEADER: \addbibresource{./lab1.bib}
+#+EXPORT_FILE_NAME: StefanBoltzmann_NguyenEric
+
+\begin{abstract}
+The goal of this experiment is to verify the Stefan-Boltzmann law for blackbody radiation.
+We use a cavity to act as a virtually ideal blackbody in this experiment.
+The results from this experiment indeed are in agreement with the Stefan-Boltzmann law.
+\end{abstract}
+
+* Introduction
+
+A blackbody is a body that absorbs all heat.
+Kirchhoff was the first to propose a cavity as an ideal blackbody.
+A cavity with a hole radiates energy proportional to the fourth power of its absolute temperature in a behavior defined as the *Stefan--Boltzmann law*.
+
+One of the topics in recent physics literature that motivates the study of blackbody radiation and the Stefan-Boltzmann law is that of the \(n\)-Müser engine whereby an engine of the \(T^n\) heat transfer law is studied as opposed to the \(T^4\) heat transfer law where \(n > 0\) and \(n \in \mathbb{R}\).
+The goal of these studies are to optimize heat engines with respect to certain ecological criterion.
+[[cite:&RAMIREZMORENO2016914][n-Müser engine]]
+
+* Experimental Method
+
+** Equipment
+
+Moll's thermopile, electric oven, blackbody accessory, the Leybold micro-voltmeter, digital thermometer with a temperature probe
+
+#+CAPTION: Cavity with temperature \(T\) as a virtually ideal blackbody in a surrounding ambient temperature of \(T_0\)
+#+ATTR_LATEX: :width 120px
+[[./diagram.png]]
+
+** Procedure
+
+First, we turned on the micrometer and connected the temperature probe to the thermometer and inserted the probe into the cavity.
+Then we aligned the thermopile along the line of heat radiation, facing towards the cavity.
+We turned on the oven to obtain a cavity temperature of \(T = 200^\circ\) and started recording the output voltage U of the thermopile every \(25^\circ\) increase.
+Once \(T = 400^\circ\), we turned off the oven and started recording the output voltage U of the thermopile every \(25^\circ\) decrease.
+
+* Theoretical Background
+
+A cavity at temperature \(T\) within a surrounding ambient temperature of \(T_0\) has a net radiant flux of
+
+\[I = \sigma(T^4 - {T_0}^4)\]
+
+* Results and Analysis
+
+The temperature of the air around the thermopile on the way up is \(T_0 = 20.1^\circ C\).
+The temperature of the air around the thermopile on the way up is \(T_0 = 20.1^\circ C\).
+The average ambient temperature was 293.1 K.
+
+The linear fit calculations gave a slope of \(m = 0.03\) and a standard error of \(\Delta m = 0.0014\).
+
+The relationship between \(U\) and \(T^4 - {T_0}^4\) is positively correlated.
+That is, the potential difference \(U\) increases as the net radiant flux \(I\) increases.
+
+The relationship holds across the entire data.
+Factors that may have influenced the measurements include error in the alignment of the thermopile.
+
+#+CAPTION: Temperature/voltage data from lab experiment
+| Temp (°C) | Temp (K) | U up (mV) | U down (mV) | \(T^4 - {T_0}^4 \times 10^{-10}\) (K^4) | Average U (mV) |
+|-----------+----------+-----------+-------------+-----------------------------------------+----------------|
+|       200 |      473 |      0.08 |        0.06 |                                    4.27 |           0.07 |
+|       225 |      498 |      0.10 |        0.08 |                                    5.42 |           0.09 |
+|       250 |      523 |      0.12 |        0.10 |                                    6.75 |           0.11 |
+|       275 |      548 |      0.16 |        0.14 |                                    8.29 |           0.15 |
+|       300 |      573 |      0.20 |        0.18 |                                    10.1 |           0.19 |
+|       325 |      598 |      0.26 |        0.23 |                                    12.1 |           0.25 |
+|       350 |      623 |      0.34 |        0.30 |                                    14.3 |           0.32 |
+|       375 |      648 |      0.44 |        0.38 |                                    16.9 |           0.41 |
+|       400 |      673 |      0.55 |        0.49 |                                    19.8 |           0.52 |
+
+#+CAPTION: Linear fit for Stefan-Boltzmann experimental data
+[[./fit.png]]
+
+* Conclusion
+
+The results of this lab confirm the Stefan-Boltzmann Law by showing that the energy radiated by a blackbody is indeed proportional to the fourth power of its absolute temperature minus the ambient temperature to the fourth power.
+
+[[printbibliography:]]

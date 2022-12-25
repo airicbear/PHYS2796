@@ -1,0 +1,24 @@
+#+TITLE: Lab Report - Franck-Hertz Experiment
+#+AUTHOR: Eric Nguyen \qquad Group 4
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
+#+LATEX_HEADER: \addbibresource{./lab6.bib}
+#+EXPORT_FILE_NAME: FranckHertz_NguyenEric
+
+\begin{abstract}
+The goal of this experiment is to observe the excitation
+\end{abstract}
+
+* Introduction
+
+* Experimental Method
+
+* Theoretical Background
+
+* Results and Analysis
+
+* Conclusion
+
+[[printbibliography:]]

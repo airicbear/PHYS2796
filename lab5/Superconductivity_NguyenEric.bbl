@@ -1,0 +1,70 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Sato_2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SM}{%
+         family={Sato},
+         familyi={S\bibinitperiod},
+         given={Masatoshi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={Ando},
+         familyi={A\bibinitperiod},
+         given={Yoichi},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{SMAY1}
+    \strng{fullhash}{SMAY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    This review elaborates pedagogically on the fundamental concept, basic
+  theory, expected properties, and materials realizations of topological
+  superconductors. The relation between topological superconductivity and
+  Majorana fermions are explained, and the difference between dispersive
+  Majorana fermions and a localized Majorana zero mode is emphasized. A variety
+  of routes to topological superconductivity are explained with an emphasis on
+  the roles of spin–orbit coupling. Present experimental situations and
+  possible signatures of topological superconductivity are summarized with an
+  emphasis on intrinsic topological superconductors.%
+    }
+    \verb{doi}
+    \verb 10.1088/1361-6633/aa6ac7
+    \endverb
+    \field{number}{7}
+    \field{pages}{076501}
+    \field{title}{Topological superconductors: a review}
+    \verb{url}
+    \verb https://doi.org/10.1088/1361-6633/aa6ac7
+    \endverb
+    \field{volume}{80}
+    \field{journaltitle}{Reports on Progress in Physics}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput
