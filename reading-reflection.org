@@ -1,0 +1,20 @@
+#+TITLE: Final Reflection
+#+AUTHOR: Eric Nguyen
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage[doublespacing]{setspace}
+#+LATEX_HEADER: \frenchspacing
+#+LATEX_CLASS_OPTIONS: [12pt]
+
+Richard Rhodes' /The Making of Atomic Bomb/ shows that our knowledge of modern physics, while established on the research of many very brilliant individuals, was ultimately still a human effort.
+That is, modern physics was not magically discovered, but there was, and there continues to be many challenges involved in the development of modern physics.
+There are many examples in the book where we see how the reality of being human imposes constraints on the individuals in the book.
+For example, in the first chapter, we may consider how Leo Szilard was nearly sent off to fight in the war, where humanity would lose the profound contributions he made to physics.
+Further, we may consider how there may have been many other brilliant individuals who, subject to the human condition, were unable to execute upon their full potential to make significant contributions to our knowledge of physics.
+Specifically, poor economic conditions may prevent otherwise brilliant individuals from acquiring the necessary funds to pursue physics research.
+In one notable case, we recall how Rutherford, while extremely talented in physics, was indeed quite poor.
+Had his ingenuity not been discovered by the Cavendish, his potential may have never come to fruition and thus the physics community would be looking at a major setback.
+War and economics are merely a few examples of how the human condition is a limiting factor in the development of modern physics.
+Other examples might involve politics, technology, culture, religion, ethics, etc.
+In conclusion, modern physics is not magic---it took great efforts to  get to the point where we are now in our knowledge of modern physics.
+Physicists are still humans at the end of the day.

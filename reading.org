@@ -1,0 +1,414 @@
+#+TITLE: Reading Notes for /The Making of the Atomic Bomb/ by Richard Rhodes
+#+AUTHOR: Eric Nguyen
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+
+* Part One: Profound and Necessary Truth :noexport:
+
+** Chapter 1: Moonshine
+
+- Tuesday, September 12, 1933: London; Leo Szilard has a revelation as he crosses the street where Southampton Row passes Russell Square, across from the British Museum in Bloomsbury.
+
+  #+begin_quote
+  As he crossed the street time cracked open before him and he saw a way to the future, death into the world and all our woe, the shape of things to come.
+  #+end_quote
+
+- Leo Szilard: Hungarian theoretical physicist; Jewish; Born in Budapest on Feb 11, 1898. 35 years old in 1933; 5' 6"; thick, curly, dark hair; flat cheekbones; dark brown eyes
+
+- /The Shape of Things to Come/ was H. G. Wells' new novel;
+  Reviewed in /The Times/ on Sep 1:
+
+  #+begin_quote
+  Mr. Wells' newest 'dream of the future' is its own brilliant justification
+  #+end_quote
+
+  + The visionary English novelist was one among Szilard's network of influential acquaintances, a network he assembled by plating his articulate intelligence with the purest brass
+
+- In 1928, in Berlin, where he as a /Privatdozent/ at the University of Berlin and a confidant and partner in practical invention of Albert Einstein, Szilard had read Wells' tract /The Open Conspiracy/
+
+  + The Open Conspiracy was to be a public collusion of science-minded industrialists and financiers to establish a world republic. Thus to save the world.
+
+  + Szilard traveled to London in 1929 to meet Wells and bid for the Central European rights to his books
+
+- Szilard's past prepared prepared him for his revelation on Southampton Row.
+  He was the son of a civil engineer.
+  His mother was loving and he was well provided for.
+
+  #+begin_quote
+  I knew languages because we had governesses at home, first in order to learn German and second in order to learn French.
+  #+end_quote
+
+  He was a "sort of mascot" to classmates at his /Gymnasium/, the University of Budapest's famous Minta.
+
+  #+begin_quote
+  When I was young, I had two great interests in life; one was physics and the other politics.
+  #+end_quote
+
+  He remembers informing his awed classmates, at the beginning of the Great War, when he was sixteen, how the fortunes of nations should go, based on his precocious weighing of the belligerents' relative political strength:
+
+  #+begin_quote
+  I said to them at the time that I did of course not know who would win the war, but I did know how the war ought to end.
+  It ought to end by the defeat of the central powers, that is the Austro-Hungarian monarchy and Germany, and also end by the defeat of Russia.
+  I said I couldn't quite see how this could happen, since they were fighting on opposite sides, but I said that this really what ought to happen.
+  In retrospect I find it difficult to understand how at the age of sixteen and without any direct knowledge of countries other than Hungary, I was able to make this statement.
+  #+end_quote
+
+- He graduated from the Minta in 1916, taking the Eötvös Prize, the Hungarian national prize in mathematics, and considered his further education.
+  He was interested in physics but "there was no career in physics in Hungary".
+  If he studied physics he could become at best a high school teacher.
+  He thought of studying chemistry, which might be useful later when he picked up physics, but that wasn't likely either to be a living.
+  He settled on electrical engineering.
+  Economic justifications may not tell all.
+  A friend of his studying in Berlin noticed as late as 1922 that Szilard, despite his Eötvös Prize, "felt that his skill in mathematical operations could not compete with that of his colleagues".
+  On the other hand, he was not alone among Hungarians of future prominence in physics in avoiding the backwater science taught in Hungarian universities at the time.
+
+** Chapter 2: Atoms and Void
+** Chapter 3: /Tvi/
+** Chapter 4: The Long Grave Already Dug
+** Chapter 5: Men from Mars
+** Chapter 6: Machines
+** Chapter 7: Exodus
+** Chapter 8: Stirring and Digging
+** Chapter 9: An Extensive Burst
+
+* Part Two: A Peculiar Sovereignty :noexport:
+
+** Chapter 10: Neutrons
+** Chapter 11: Cross Sections
+** Chapter 12: A Communication from Britain
+** Chapter 13: The New World
+** Chapter 14: Physics and Desert Country
+** Chapter 15: Different Animals
+** Chapter 16: Revelations
+** Chapter 17: The Evils of This Time
+
+* Part Three: Life and Death :noexport:
+
+** Chapter 18: Trinity
+** Chapter 19: Tongues of Fire
+
+
+* Foreword
+
+- Motivation of book:
+
+  1. Danger of atomic bombs
+
+  2. Declassification of Manhattan Project records
+
+- Book includes discovery of nuclear physics from the discovery of radioactivity near end of 19th century up to the discovery of nuclear fission in Nazi Germany in late 1938
+
+- Physicists in 1938 did not take seriously the weaponization of nuclear physics, except for one physicist: Leo Szilard
+
+- Physicists all around the world were trying to understand the experiment of bombarding uranium with neutrons; the discovery of nuclear fission was inevitable
+
+- "Knowledge is the basis of civilization" ---Niels Bohr
+
+- "It is a profound and necessary truth that the deep things in science are not found because they are useful; they are found because it was possible to find them" ---Robert Oppenheimer
+
+- Bohr once proposed that science is "the gradual removal of prejudices", e.g.
+
+  + Discovery of microbes gradually removes the prejudice that disease is punishment from God
+
+  + Discovery of evolution gradually removes the prejudice that /Homo sapiens/ are a separate and special creation
+
+  + Discovery of nuclear fission and its weaponization gradually removes the prejudice that there is a limited means to accumulate explosives
+
+- Rhodes makes the analogy of man-made death with that of epidemic disease, describing nuclear weapons as the vaccine
+
+* Part One: Profound and Necessary Truth
+
+** Chapter 1: Moonshine
+
+- Leo Szilard: Hungarian theoretical physicist born Feb 11, 1898
+
+- (1928) Szilard was greatly influenced by H. G. Wells' utopian "dream of the future" ideas
+
+- (1928) Szilard was a partner in practical invention of Albert Einstein at the University of Berlin
+
+- (1922) Szilard was drafted into the Austro-Hungarian Army
+
+  + Szilard's leave of absence almost certainly saved his life
+
+- (1919) The physics faculty of University of Berlin included
+
+  + Albert Einstein
+
+  + Max Planck
+
+  + Max von Laue
+
+- (1923) Extremely poor economic conditions in Germany
+
+- (Summer 1921) Szilard asked Max von Laue for a thesis topic
+
+  + Von Laue challenged Szilard with studying an inconsistency in thermodynamics
+
+  + (1905) Einstein demonstrated Brownian motion was a state of thermal equilibrium
+
+  + Inconsistency: more useful phenomenological theory treated thermal equilibrium as if it were static, a state of no change
+
+  + Szilard "worked out rigorous mathematical proof that random motion of thermal equilibrium could be fitted within the framework of phenomenological theory in its original, classical form, without reference to a limiting atomic model"
+
+  + Szilard's paper was titled "On the extension of phenomenological thermodynamics to fluctuation phenomena"
+
+  + (6 months later) Szilard writes new paper, "On the decrease of entropy in a thermodynamic system by the intervention of intelligent beings"
+
+- (1925) University of Berlin accepts Szilard's entropy paper as his /Habilitationsschrift/ (inaugural dissertation) and appoints him as /Privatdozent/
+
+- (1933) Szilard leaves for England
+
+- (Jan 1929) Szilard applied for patent so-called "cyclotron" device, which came to be accredited to American experimental physicist Erneest O. Lawrence
+
+- (Apr 1929) Lawrence thinks of cyclotron device and produces working prototype a year later
+
+- (1939) Lawrence wins Nobel Prize in Physics
+
+- (1930) Szilard organized a group of mostly young physicists
+
+- (1920s) Szilard becomes interested in nuclear physics: study of the nucleus of the atom (where most of its mass/energy is)
+
+- (Feb 1932) British physicist James Chadwick announces possible existence of neutron
+
+- (1932) Chemist Michael Polanyi (Szilard's friend) views German political scene optimistically
+
+- (Jan 1933) Adolf Hitler appointed Chancellor of Germany
+
+- (Feb 1933) Hitler's private army burns down the Reichstag, blaming Communists
+
+- (Apr 1933) Julius Streicher directed national boycott of Jewish businesses and had Jews beaten in the streets
+
+  + Jewish scholars and scientists lost their positions in German universities
+
+- (Sep 1933) /The Times/ publishes several headlines, e.g., "THE BRITISH ASSOCIATON", "BREAKING DOWN THE ATOM", "TRANSFORMATION OF THE ELEMENTS", "THE NEUTRON NOVEL TRANSFORMATIONS"
+
+  + Szilard is intrigued by one headline: "HOPE OF TRANSFORMING ANY ATOM"
+
+  + Quote from article, "anyone who looked for a source of power in the transformation of the atoms was talking moonshine"
+
+  + "Moonshine"---"foolish or visionary talk"
+
+  + Szilard wasn't the first to realize that the neutron might slip past the positive electrical barrier of the nucleus
+
+  + But he was the first to imagine a mechanism whereby more energy might be released in the neutron's bombardment of the nucleus than the neutron itself supplied
+
+  + Polanyi studied a similar process in chemistry known as "chain reaction" which enabled chemical reactions to occur at lower temperatures than normally required
+
+  + Szilard realizes that "if we could find an element which is split by neutrons and which would emit two neutrons when it absorbs one neutron, such an element, if assembled in sufficiently large mass, could sustain a nuclear chain reaction"
+
+** Chapter 2: Atoms and Void
+
+- (1704) "It seems probable to me that God in the beginning formed matter in solid, massy, hard, impenetrable, movable particles, of such sizes and figures, and with such other properties, and in such proportion to space, as most conduced to the end to which he formed them." --- Issac Newton
+
+- (1873) Scottish physicist James Clerk Maxwell's /Treatise on Electricity and Magnetism/ modified Newton's purely mechanical universe of particles colliding in a void by introducing the idea of an electromagnetic field
+
+- Both Newton and Maxwell were devoted to a hard, mechanical atom
+
+  + Planck saw that purely mechanical atoms violated the second law of thermodynamics
+
+- (1879) In his Ph.D. dissertation at the University of Munich, Planck writes "the process of heat conduction cannot be completely reversed by any means"---the second law of thermodynamics---defines what his predecessor Rudolf Clausius named "entropy"
+
+- (1894) Robert Cecil, chancellor of Oxford, saw the study of atoms to be a profound mystery
+
+- (1895) Ernest Rutherford moves from New Zealand to England to study physics at the Cavendish Laboratory under J.J. Thomson
+
+- (1893) Rutherford was studying at the University of New Zealand to earn a B.Sc. where he carried out an ingenious experiment after being inspired by Heinrich's 1887 discovery of "electric waves" (now known as "radio")
+
+  + Rutherford earns an 1851 Exhibition scholarship to Cambridge for his work
+
+- (Sep 1895) At Cavendish, Rutherford explains his insights about a device for detecting radiowaves from a distance---"radio receiver"
+
+  + Guglielmo Marconi was perfecting his version of a receiver at his father's home in Italy
+
+- (Jun 1896) Thomson reads Rutherfords "A magnetic detector of electrical waves and some of its applications"---Marconi only catches up with him in September
+
+- (Jan 1896) Rutherford, engaged to Mary Newton, was poor and eager to exploit radio commercially, yet years later would become hostile to the idea of  the commercialization of scientific research---this refusal irritated Leo Szilard in 1933
+
+- (Nov 1895) German physicist Wilhelm Röntgen discovered X rays radiating from the fluorescing glass wall of a cathode-ray tube, stunning the world
+
+- (1897) Röntgen identifies a "negative corpuscle" (now known as "electron") in his continued research using cathode rays
+
+- (Spring 1897) Thomson demonstrated that the beam of glowing matter in a cathode-ray tube was not made of light waves, but negatively charged particles boiling off the negative cathode and attracted to the positive anode
+
+- (1894) Thomson missed discovering X rays, however not as unlucky as Oxford physicist Frederick Smith who found that photographic plates kept near cathode-ray tube were liable to be fogged
+
+- (Jan 1896) Herni Becquerel, chair of physics at the Musée d'Histoire Naturelle in Paris, heard a report of Röntgen's work which inspired him to test various fluorescing materials to see if they also emitted X rays
+
+  + First experiment succeeded but misled him
+
+- (Between 1898--1911) Rutherford dissected the atom, "There are present at least two distinct types of radiation---one that is very readily absorbed, which will be termed for convenience the \(\alpha\) [alpha] radiation, and the other of a more penetrative character, which will be termed the \(\beta\) [beta] radiation."
+
+- (1900) Rutherford reported discovery of radioactive gas emanating from the radioactive element thorium
+
+- (1903) Hantaro Nagaoka, a Japanese theoretical physicist, postulated a "Saturnian" model of the atom with flat rings of electrons revolving like Saturn's rings around a "positively charged particle"
+
+- (Mar 1912) Bohr visits the Cavendish Laboratory to get experience in radioactive work
+
+** Chapter 3: /Tvi/
+
+- (Spring 1920) Einstein meets Niels Bohr
+
+- (Early 1880s) Christian Bohr, Niels Bohr's father, was professor of physiology at the University of Copenhagen
+
+** Chapter 4: The Long Grave Already Dug
+
+- (Oct 1912) In Copenhagen, Bohr was approaching his quantized atom
+
+- (1914) Seven institutes proposed by science foundation, Kaiser Wilhelm family
+
+  + (1911) Adolf von Harnack, theologian and son of a chemist, was its first president
+
+  + Ernst von Inhe was its imperial architect
+
+- (1906) Otto Hahn moved to Berlin to work with Emil Fischer at the university
+
+- (1909) Fritz Haber succeeded in developing a practical method of extracting nitrogen from the air to make ammonia
+
+  + Ammonia would serve for artificial fertilizer
+
+  + Haber process would be invaluable to produce nitrates for explosives
+
+- (Summer 1913) Niels Bohr sails with young wife to England
+
+** Chapter 5: Men from Mars
+
+- (1896) First subway built, connecting Hungarian capital with its northwestern suburbs
+
+- (1933) John von Neumann befriends Eugene Wigner and thought of him as a prodigy
+
+- (1922) Niels Bohr explains atomic structure that underlies the regularities of the periodic table of the elements
+
+  + Bohr proposes atoms are built of successive orbital shells of electrons---each shell capable of accommodating up to a certain number of electrons and no more
+
+- (Summer 1921) Robert Oppenheimer, a wealthy 17-year-old American student and recent graduate of the Ethical Culture School of New York, made his way to Joachimsthal on an amateur prospecting trip
+
+  + J.J. Thomson lets Oppenheimer in the Cavendish
+
+- (1926--1929) Oppenheimer published 16 papers, establishing an international reputation as a theoretical physicist
+
+- (Early 1926) Erwin Schrödinger, a Viennese theoretical physicist, published a wave theory of matter demonstrating that matter at the atomic level behaves as if it consists of waves
+
+** Chapter 6: Machines
+
+- (1919) Rutherford delivers paper at Manchester before leaving for Cambridge, titled "An anomalous effect in nitrogen," which was revolutionary
+
+  + Ernest Marsden's examination of alpha scattering led Rutherford to discover the atomic nucleus
+
+** Chapter 7: Exodus
+
+- (Dec 1919) Albert Einstein wrote to Paul Ehrenfest from Berlin, "Antisemitism is strong here and political reaction is violent"
+
+- (1919) Max Planck wrote to the Nobel Commitee that Einstein "made the first step beyond Newton"
+
+- (Nov 1915) Einstein presents a paper to the Prussian Academy of Sciences in Berlin titled, "The field equations of gravitation"
+
+  + He reports, "the general theory of relativity is closed as a logical structure"
+
+  + His paper explains mysterious anomalies in the orbit of Mercury
+
+  + The general theory also predicted that starlight would be deflected, when it passed a massive body like the sun, through an angle equal to twice the value Newtonian theory predicts---"Einstein value"
+
+- (May 1919) Total eclipse of the sun occurs, which the British took advantage of to study the stars
+
+  + Their study confirmed that Einstein's value was good---not the Newton value
+
+  + Einstein becomes famous as findings are published in the /The Times/' "REVOLUTION IN SCIENCE"
+
+- (1907) Einstein comes up with \(E = mc^2\) formula in a long paper published in the /Jahrbuch der Radioaktivität und Elektronik/
+
+- (1908) Einstein habilitated as /Privatdozent/ at the University of Bern
+
+- (Oct 1909) Einstein finally moved up to associate professor at the University of Zurich
+
+- (1913) Max Planck, Fritz Haber, and other German notables, offer Einstein a triple appointment in Berlin
+
+- (1914) Einstein arrives in Berlin
+
+- (1921) Einstein had seen crowds of Eastern Jews stumbling in Berlin in the wake of war and revolution
+
+- (Jun 1922) Right-wing extremists gunned down Walther Rathenau, the Weimar Republic's first Foreign Minister, a physical chemist and industrialist friend of Einstein and a highly visible Jew
+
+  + Einstein figured he was the next target
+
+** Chapter 8: Stirring and Digging
+
+- (Oct 1933) George Gamow escapes the Soviet Union (which was becoming hostile to theoretical physicists persisting modern views) by taking advantage of the 7th Solvay Conference held in Brussels
+
+- (Aug 1932) Carl Anderson, American experimentalist at Caltech, discovers the positron
+
+- (Mar 1934) Leo Szilard applied for a patent specification, "Improvements in or Relating to the Transmutation of Chemical Elements"
+
+- (Jan--Feb 1934) Ginestra Amaldi set to work looking for alpha-emitting reactions in uranium in addition to the beta reactions the group had originally found
+
+- (Apr 1934) Szilard amends his patent specification, "Other examples for elements from which neutrons can liberate multiple neutrons are uranium and bromine"
+
+- (Sep 1934) Ida Noddack, German chemist, published "On element 93"
+
+  + Criticized Fermi's work, claiming "method of proof not valid"
+
+** Chapter 9: An Extensive Burst
+
+- (1935) Fritz Strassman, a young German chemist, started working with Lise Meitner to sort out all the substances into which the heaviest natural elements transmuted under neutron bombardment
+
+  + Around the same time, Irene Curie and Pavel Savitch started studying uranium
+
+- (Jan 1939) The Joliot-Curies detected fission fragments
+
+  + Bohr and Fermi came to check out the results and were amazed at the ionization pulses on the oscilloscope
+
+  + Luis W. Alvarez tells Robert Oppenheimer about the experiment
+
+  + Oppenheimer, after observing the oscilloscope, figured that fission was indeed possible---he had decided that some neutrons would probably boil off in the reaction, and that you could make bombs and generate power, all inside of a few minutes
+
+  + Suggestion of a bomb emerges
+
+* Part Two: A Peculiar Sovereignty
+
+** Chapter 10: Neutrons
+
+- (Jan 1939) Szilard learns Enrico Fermi discussed the possibility of a chain reaction at the the Fifth Washington Conference on Theoretical Physcics
+
+- (1934) Fermi's team had discovered that hydrogen was more efficient than any other element at slowing down neutrons, and slow neutrons avoided the parasitic capture resonance of U238
+
+- (Sep 1, 1939) U.S. proposes that aerial bombing of civilians is immoral: Britain, France, and Germany agree
+
+- (Sep 16, 1939) Erich Bagge, a young Leipzig theoretician, and two physicists, plan a secret conference to consider the feasibility of a weapons project
+
+  + Bagge proposed calling Werner Heisenberg, his superioir at Leipzig, to adjudicate
+
+  + (Sep 26) Heisenberg then attended a second Berlin conference and discussed two possible ways to harness energy from fission
+
+    1. By slowing secondary neutrons with a moderator to make a "uranium burner"
+
+    2. By separating U235 to make an explosive
+
+  + Paul Harteck, a Hamburg physicist traveled to the second conference with a paper he just finished on the importance of layering uranium and moderator to avoid the U238 capture resonance
+
+** Chapter 11: Cross Sections
+
+- (1939) Otto Frisch feels that war is coming
+
+- (1939) Glenn T. Seaborg, a young chemist, had already been working on identifying and isolating element 94
+
+  + (Mar 28) Seaborg constructed a portable ionization chamber and linear amplifier for detecting fission pulses
+
+** Chapter 12: A Communication from Britain
+
+- Pearl Harbor happens
+
+** Chapter 13: The New World
+
+- (Dec 6, 1941) German Blitzkrieg fails against Soviet forces due harsh conditions of Russian winter
+
+- (Summer 1942) Robert Oppenheimer gathers small group of theoretical physicists---"lumanaries"---to design atomic bomb
+
+** Chapter 14: Physics and Desert Country
+
+- Condon summarizes what Serber told the scientists, "The object of the project is to produce a /practical military weapon/ in the form of a bomb in which the energy is released by a fast neutron chain reaction in one or more of the materials known to show nuclear fission"
+
+- The USA was far ahead of the competition in atomic energy technology
+
+** Chapter 15: Different Animals
+
+- Pearl Harbor had grown anger in Americans against Japan
+
+- (Jan 1943) "Peace can come to the world only by the total elimination of German and Japanese war power... The elimination of German, Italy, and Japan." --- Roosevelt
